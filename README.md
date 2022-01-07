@@ -65,7 +65,7 @@ When a client starts, it connects to the Socket.io server and receives a message
 
 The user is required to tap the Start button. This ensures that the sound will play by direct user interaction, as most mobile browsers won't allow programmatic automatic audio playing, for a good reason. The sound begins to play and immediately pauses.
 
-When the MC detects that all users are ready, the MC navigates to `/mdo/start`, inputs the password and submits. All users then receive a socket message to start play, and the audio will begin to play somewhat simultanuously in all mobile browsers.
+When the MC detects that all users are ready, the MC navigates to `/mdo/start`, inputs the password and submits. All users then receive a socket message to start playing, and the audio will begin to play somewhat simultanuously in all mobile browsers.
 
 ## Debugging
 
