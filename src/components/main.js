@@ -29,7 +29,7 @@ const Main = () => {
   const [bgColor, setBgColor] = useState('#000')
 
   useEffect(() => {
-    const newSocket = io(`http://${window.location.hostname}`)
+    const newSocket = io(`${window.location.protocol}://${window.location.hostname}`)
     setSocket(newSocket)
     return () => newSocket.close()
   }, [setSocket, playerStatus]);
