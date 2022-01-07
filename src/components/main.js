@@ -29,6 +29,7 @@ const Main = () => {
   const [bgColor, setBgColor] = useState('#000')
 
   useEffect(() => {
+    console.log(window.location.hostname)
     const newSocket = io(window.location.hostname)
     setSocket(newSocket)
     return () => newSocket.close()
