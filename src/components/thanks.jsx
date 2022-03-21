@@ -1,3 +1,5 @@
+import React from 'react'
+
 /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({show}) =>
   <div style={ {display: show ? 'block' : 'none'} }>
